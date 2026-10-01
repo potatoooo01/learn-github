@@ -9,3 +9,11 @@ body{background:radial-gradient(circle at 10% 0%,#161427 0,#07080d 38%,#000 78%)
 .primary-cta,button,.btn{background:var(--primary);color:#00161a}.primary-cta:hover,button:hover,.btn:hover{background:var(--primary-dark);color:#fff}.secondary{background:#232630!important;color:var(--text)!important;border-color:var(--border)!important}.choice-chip.active,.mode-switch button.active,.viewer-plane-tabs button.active{background:var(--by);color:#111}.ref-window,.side-panel,.profile-box,.question-card,.flash-deck-card,.progress-glass{background:#111318;border-color:#26282f}.sx-pills .section-label-row.sel{background:#3a3217;border-color:var(--by)}.sx-def{background:#d9a621;color:#2a1c00}.site-footer{border-color:#333;color:#9ca3af}.site-footer span span{color:var(--by)}.skip-link{background:var(--by);color:#111}.search-panel{background:#111318;border-color:#3a3a3d}.search-results button:hover{background:#232630}
 .study-guide{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 18px;padding:12px;border:1px solid #26282f;background:#111318;border-radius:8px}.study-guide article{padding:8px 12px;border-right:1px solid #26282f}.study-guide article:last-child{border-right:0}.study-guide b{display:block;color:var(--by);font-size:12px}.study-guide span{display:block;color:#b8bbc4;font-size:11px;margin-top:3px}.study-guide kbd{padding:1px 5px;background:#232630;border:1px solid #3c414a;border-radius:3px;color:#fff;font-size:10px}
 @media(max-width:600px){.study-guide{grid-template-columns:1fr}.study-guide article{border-right:0;border-bottom:1px solid #26282f}.study-guide article:last-child{border-bottom:0}}
+/* Compact anatomy markers: the label remains discoverable without covering the MRI. */
+.exam-pin{width:24px;height:24px;border-width:1px;font-size:.72rem;box-shadow:0 0 9px rgba(214,155,16,.55)}
+.flash-marker-pin{width:12px;height:12px}
+.flash-marker-pin::before{border-width:1px;box-shadow:0 0 0 2px rgba(228,184,79,.24),0 0 7px rgba(228,184,79,.65)}
+.flash-marker-pin::after{inset:-6px;border-width:1px}
+.overlay-marker .marker-dot{left:-4px;top:-4px;width:8px;height:8px;border-width:1px;box-shadow:0 0 5px var(--mc,#ffd15a)}
+.overlay-marker .marker-tag{left:9px;font-size:9px;padding:2px 5px}
+.quest-pin{width:13px;height:13px;border-width:2px;box-shadow:0 0 0 2px #16120a,0 0 9px #ffd166}
