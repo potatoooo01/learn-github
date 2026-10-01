@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "Production assets load",
+    "No console errors",
+    "MRI error state and retry"
+  ],
+  "errors": [],
+  "bad": []
+}

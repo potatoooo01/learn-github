@@ -1,0 +1,3 @@
+(function(){var K='br_settings',D={theme:'dark',font:'sys',size:1},F={sys:'"Segoe UI","Chulabhorn Likit Text Light",sans-serif',sarabun:'"Sarabun","Segoe UI",sans-serif',prompt:'"Prompt","Segoe UI",sans-serif',noto:'"Noto Sans Thai","Segoe UI",sans-serif'},S;try{S=Object.assign({},D,JSON.parse(localStorage.getItem(K)||'{}'))}catch(e){S=Object.assign({},D)}
+function ap(){var r=document.documentElement;r.dataset.theme=S.theme;r.style.setProperty('--ff',F[S.font]||F.sys);r.style.setProperty('--fs',S.size);try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}}
+window.BRS={S:S,ap:ap,F:F,D:D};ap()})();

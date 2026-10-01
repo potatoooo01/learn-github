@@ -1,0 +1,6 @@
+node_modules/
+dist/
+verification/*.png
+verification/original-v23.html
+verification/source-review.txt
+.npm-cache/

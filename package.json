@@ -1,0 +1,1 @@
+{"name":"brtomox-anatomy","private":true,"version":"24.0.0","scripts":{"start":"node scripts/serve.cjs","build":"node scripts/build.cjs","test":"node tests/e2e.cjs && node tests/regression.cjs"},"devDependencies":{"playwright":"1.62.1"}}

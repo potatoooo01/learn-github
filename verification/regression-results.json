@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "Direct viewer route",
+    "Zoom changes rendered image",
+    "Reset restores rendered image",
+    "Pan moves image",
+    "Pan preserves selected voxel",
+    "Reset clears pan",
+    "Resize preserves voxel",
+    "Favorites available in search",
+    "Retry incorrect starts review",
+    "Partial word not accepted",
+    "Timer stopped after leaving Lab",
+    "Rating first reveals answer",
+    "Unrevealed card not counted",
+    "Review missed cards",
+    "Light theme preserves MRI colors",
+    "Active quiz fits 375",
+    "Active Lab fits 375",
+    "Three planes fit 375",
+    "Active quiz fits 768",
+    "Active Lab fits 768",
+    "Three planes fit 768",
+    "Active quiz fits 1366",
+    "Active Lab fits 1366",
+    "Three planes fit 1366",
+    "Viewer survives refresh",
+    "Progress survives refresh",
+    "No exceptions"
+  ],
+  "errors": []
+}
